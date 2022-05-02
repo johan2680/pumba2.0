@@ -1,0 +1,672 @@
+#BeastLeaks.eu
+#========================================================
+#                                                       =
+#                     LICENSE KEY                       =
+#                                                       =
+#========================================================
+
+license:
+    #MY PANEL LICENSE KEY
+    #DO NOT CHANGE
+    key: "BeastLeaks"
+
+
+
+#========================================================
+#                                                       =
+#                        GENERAL                        =
+#                                                       =
+#========================================================
+
+general:
+    #BOT TOKEN
+    token: "***************************"
+
+    #OWNER OF THE DISCORD
+    owner: '772487894287253524'
+
+    #GUILD ID
+    server_id: '866847584860373022'
+
+    #NAME OF THE BOT
+    name: "WolBot"
+
+    #BOT PREFIX
+    prefix: "!"
+
+    #COLOR FOR EMBEDS BORDER
+    color: "#03fcf8"
+
+
+#========================================================
+#                                                       =
+#                     FEATURES                          =
+#                   (true/false)                        =
+#========================================================
+
+features:
+    # SEND MEME EVERY HOUR
+    meme: 'true'
+
+    #SHOW IN CHANNEL THE NUMBER OF MEMBERS
+    counter_channel: 'true'
+#BeastLeaks.eu
+
+    #BLOCK USERS FROM SEND DISCORD INVITES
+    anti_invites: 'true'
+
+    #METHOD OF JOIN CAN BE AUTOROLE/VERIFY/CAPTCHA
+    join: captcha
+
+    #PREVENT UPPER CASE SPAM
+    upper_case_limit: 'true'
+
+    #PREVENT MEMBERS FROM SEND LINKS
+    links_remove: 'true'
+
+    #PREVENT USERS FROM MESSAGE SPAM
+    antispam: 'true'
+
+    #PREVENT USERS FROM USE COMMANDS IN ANY CHANNEL
+    only_commands_channel: 'false'
+
+    #PREVENT MEMBERS FROM SAY BAD WORDS
+    block_bad_words: 'true'
+
+    #LOG ALL COMMANDS USES AND ACTIONS
+    bot_logs: 'true'
+
+    #SAVE A TICKET TRANSCRIPT ON CLOSING TICKET
+    ticket_transcript: 'false'
+
+    #ENABLE JOIN MESSAGE
+    join_message: 'true'
+
+    #JOIN MESSAGE MODE CAN BE EMBED/RANDOM
+    join_message_mode: 'embed'
+
+    #MENTION THE USER IN JOIN/LEAVE MESSAGE
+    message_mention: true
+
+    #ENABLE LEAVE MESSAGE
+    leave_message: 'true'
+
+    #ENABLE TEMP VOICE CHANNEL CREATION
+    temp_voice_channel: 'true'
+
+    #REACT TO MESSAGES CONTENT
+    auto_react: 'true'
+
+    #MINECRAFT SERVER STATS CHANNELS
+    minecraft_stats: 'true'
+
+#========================================================
+#                                                       =
+#                        STATUS                         =
+#                                                       =
+#========================================================
+status:
+  #CAN BE CYCLING/CUSTOM
+  mode: custom
+
+  cycling:
+    quotes:
+        - ["playing", "Users: {users}"]
+        - ["playing", "Bots: {bots}"]
+        - ["listening", "Humans: {humans}"]
+        - ["playing", "Tickets: {tickets}"]
+        - ["playing", "Online Users: {total-online-users}"]
+        - ["watching", "Online Humans: {total-online-humans}"]
+        - ["watching", "Online Bots: {total-online-bots}"]
+
+    #DELAY BETWEEN CHANGE TO NEXT LINE
+    time: 10
+
+  custom: ["watching", "Hello"]
+
+#========================================================
+#                                                       =
+#                       CHANNELS                        =
+#                                                       =
+#========================================================
+
+channels:
+    #WHERE GONNA SEND MEMES EVERY HOUR OR MEMBERS CAN USE MEME COMMANDS
+    meme: '881911176945102948'
+
+    #WHERE BOT GO SEND KICK/BAN/MUTE ETC MESSAGES
+    punish_message: '881911169839939664'
+
+    #WHERE BOT SEND JOINS/LEAVES MESSAGES
+    joins_leaves: '881911167889588245'
+
+    #WHERE MEMBERS CAN USE COMMANDS IF FEATURE "only_commands_channel" IS ENABLED
+    commands: '881911175837810688'
+
+    #WHERE USERS WILL JOIN TO CREATE TEMPORARY CHANNEL IF ENABLED
+    voice: '887450936761532466'
+
+    #WHERE BOT GO SAVE ALL COMMANDS AND ACTIONS LOGS
+    logs: '881911181005168671'
+
+    #WHERE BOT GO SAVE TICKETS TRANSCRIPTS
+    transcript: '881911180493488128'
+
+    #WHERE BOT GO SAVE REPORTS COMMANDS MESSAGES
+    reports: '881911177884606464'
+#BeastLeaks.eu
+    #THE CHANNEL WHERE BOT WILL COUNT NUMBER OF MEMBERS IF ENABLED
+    counter: '925351068945219644'
+
+    #WHERE BOT WILL SEND SUGGESTIONS MESSAGES
+    suggestion: '881911174084587550'
+
+    #WHERE BOT GO SEND CAPTCHA MESSAGE ON MEMBER JOIN
+    captcha: '886404119219306526'
+
+    #WHERE SERVER STATUS GONNA SHOW
+    minecraft_status: '895048455968415755'
+
+    #WHERE ONLINE PLAYERS GONNA SHOW
+    minecraft_players: '895056761311096902'
+
+    #MAX USERS IN AUTO-VOICE CHANNEL
+    max_voice_members: 10
+
+
+
+#========================================================
+#                                                       =
+#                      CATEGORYS                        =
+#                                                       =
+#========================================================
+
+category:
+    #WHERE BOT GO CREATE TICKETS CHANNELS
+    ticket: '881911159660376104'
+
+    #WHERE BOT GONNA CREATE TEMPORARY VOICE CHANNELS
+    voice: '887450898190725141'
+
+
+
+#========================================================
+#                                                       =
+#                        ROLES                          =
+#                                                       =
+#========================================================
+#BeastLeaks.eu
+roles:
+    #MUTED ROLE ID
+    muted: '881911148805488742'
+
+    #DEFAULT ROLE ID
+    member: '881911155885490217'
+
+
+
+#========================================================
+#                                                       =
+#                       COMMANDS                        =
+#                                                       =
+#========================================================
+
+commands:
+
+  perms:
+  #ENABLE COMMAND
+    enabled: true
+  #COMMAND NAME WILL BE USED (!perms)
+    name: perms
+  #PERMISSION ROLE NUMBER OR "owner"
+    permission: "owner"
+  #ALIASES FOR THE COMMAND
+    aliases:
+      - permissions
+
+  transcript:
+    enabled: true
+    name: transcript
+    permission: 8
+    aliases:
+
+  store:
+    enabled: true
+    name: store
+    permission: 0
+    aliases:
+
+  ip:
+    enabled: true
+    name: ip
+    permission: 0
+    aliases:
+
+  serverinfo:
+    enabled: true
+    name: serverinfo
+    permission: 8
+    aliases:
+
+  role:
+    enabled: true
+    name: role
+    permission: 8
+    aliases:
+
+  gif:
+    enabled: true
+    name: gif
+    permission: 0
+    aliases:
+
+  reroll:
+    enabled: true
+    name: reroll
+    permission: 8
+    aliases:
+
+  suggestion:
+    enabled: true
+    name: suggestion
+    permission: 0
+    aliases:
+
+  remove:
+    enabled: true
+    name: remove
+    permission: 8
+    aliases:
+
+  add:
+    enabled: true
+    name: add
+    permission: 8
+    aliases:
+
+  topinvites:
+    enabled: true
+    name: topinvites
+    permission: 0
+    aliases:
+
+  invites:
+    enabled: true
+    name: invites
+    permission: 0
+    aliases:
+
+  setstatus:
+    enabled: true
+    name: setstatus
+    permission: "owner"
+    aliases:
+
+  setpresence:
+    enabled: true
+    name: setpresence
+    permission: "owner"
+    aliases:
+
+  mcstatus:
+    enabled: true
+    name: mcstatus
+    permission: 0
+    aliases:
+
+  advice:
+    enabled: true
+    name: advice
+    permission: 0
+    aliases:
+
+  warn:
+    enabled: true
+    name: warn
+    permission: 8
+    aliases:
+
+  joke:
+    enabled: true
+    name: joke
+    permission: 0
+    aliases:
+
+  announcement:
+    enabled: true
+    name: announcement
+    permission: 8
+    aliases:
+
+  nick:
+    enabled: true
+    name: nick
+    permission: 0
+    aliases:
+
+  flip:
+    enabled: true
+    name: flip
+    permission: 0
+    aliases:
+
+  ban:
+    enabled: true
+    name: ban
+    permission: 8
+    aliases:
+
+  mcmeme:
+    enabled: true
+    name: mcmeme
+    permission: 0
+    aliases:
+
+  mute:
+    enabled: true
+    name: mute
+    permission: 8
+    aliases:
+
+  purge:
+    enabled: true
+    name: purge
+    permission: 8
+    aliases:
+
+  slow:
+    enabled: true
+    name: slow
+    permission: 8
+    aliases:
+
+  tempban:
+    enabled: true
+    name: tempban
+    permission: 8
+    aliases:
+
+  tempmute:
+    enabled: true
+    name: tempmute
+    permission: 8
+    aliases:
+
+  ticket:
+    enabled: true
+    name: ticket
+    permission: 8
+    aliases:
+
+  unban:
+    enabled: true
+    name: unban
+    permission: 8
+    aliases:
+
+  unlock:
+    enabled: true
+    name: unlock
+    permission: 8
+    aliases:
+
+  unmute:
+    enabled: true
+    name: unmute
+    permission: 8
+    aliases:
+
+  verify:
+    enabled: true
+    name: verify
+    permission: 8
+    aliases:
+ #BeastLeaks.eu
+  meme:
+    enabled: true
+    name: meme
+    permission: 0
+    aliases:
+ #BeastLeaks.eu
+  rps:
+    enabled: true
+    name: rps
+    permission: 0
+    aliases:
+
+  avatar:
+    enabled: true
+    name: avatar
+    permission: 0
+    aliases:
+
+  giveaway:
+    enabled: true
+    name: giveaway
+    permission: 8
+    aliases:
+#BeastLeaks.eu
+  help:
+    enabled: true
+    name: help
+    permission: 0
+    aliases:
+
+  poll:
+    enabled: true
+    name: poll
+    permission: 8
+    aliases:
+
+  embed:
+    enabled: true
+    name: embed
+    permission: 8
+    aliases:
+
+  say:
+    enabled: true
+    name: say
+    permission: 8
+    aliases:
+
+  lock:
+    enabled: true
+    name: lock
+    permission: 8
+    aliases:
+#BeastLeaks.to
+  kick:
+    enabled: true
+    name: kick
+    permission: 8
+    aliases:
+
+  report:
+    enabled: true
+    name: report
+    permission: 0
+    aliases:
+
+
+
+#========================================================
+#                                                       =
+#                    PERMISSIONS                        =
+#                                                       =
+#========================================================
+
+permissions:
+    #permission to close tickets
+    close_tickets: 8
+
+    #permission required to bypass send invites in chat
+    bypass_invites: 8
+
+    #permission required to bypass spam uppercase
+    bypass_uppercase: 8
+
+    #permission required to bypass send send links in chat
+    bypass_sendlinks: 8
+
+    #permission required to bypass antispam
+    bypass_antispam: 8
+
+    #permission required to use badwords in chat
+    bypass_badwords: "owner"
+
+    #permission required to bypass use commands in any channel
+    bypass_commands_channel: 8
+
+    #permission required to bot autoreact to messages
+    react_messages: 8
+
+#========================================================
+#                                                       =
+#                      ANTISPAM                         =
+#                                                       =
+#========================================================
+
+anti_spam:
+    #MINIMUM CHARS MESSAGE NEED CONTAIN TO CHECK IF IS A UPPERCASE SPAM
+    min_char_upper_check: 10
+
+    #PERCENTAGE OF MAX ALLOWED UPPERCASE PER MESSAGE
+    upper_case_limit: 80
+
+    #TIME OF MUTE IN CASE OF SPAM
+    mute_time: 10
+
+    #MAX MESSAGES CAN BE SENT IN "period_time" TO GET MUTED
+    max_messages: 5
+
+    #TIME IN SECONDS (EXAMPLE IF SEND 5 MESSAGES IN 5 SECONDS GET MUTED)
+    period_time: 5
+
+
+
+#========================================================
+#                                                       =
+#                      AUTO REACT                       =
+#                                                       =
+#========================================================
+
+words:
+  - word: 'hello'
+    emoji:
+      - '893644845770485810'
+      - '893644846881964082'
+
+  - word: 'test'
+    emoji:
+      - '893644845770485810'
+      - '893644846881964082'
+
+  - word: 'lol'
+    emoji:
+      - '893644845770485810'
+      - '893644846881964082'
+
+
+#========================================================
+#                                                       =
+#                    WARNING SYSTEM                     =
+#                                                       =
+#========================================================
+warn:
+    #TIME TO WARN EXPIRE IN MINUTES
+    warn_expire: '30'
+
+    #MAX WARNS UNTIL GET MUTED
+    max_warns: 3
+
+    #MUTED TIME IN MINUTES IF REACH MAX OF WARNS
+    mute_time: 60
+
+
+
+#========================================================
+#                                                       =
+#                    TICKETS SYSTEM                     =
+#                                                       =
+#========================================================
+
+tickets:
+    #HERE YOU CAN CONFIG HOW MANY BUTTONS YOU WANT IN TICKET CREATIONS AND WHICH ROLES WILL MANAGE EVERY DEPARTMENT OF TICKETS
+    button1:
+        enabled: true
+        role: "881911152370655262"
+
+    button2:
+        enabled: true
+        role: "881911152370655262"
+
+    button3:
+        enabled: true
+        role: "881911152370655262"
+
+    button4:
+        enabled: true
+        role: "881911152370655262"
+
+    button5:
+        enabled: true
+        role: "881911152370655262"
+
+    #CLAIM SYSTEM FOR TICKETS
+    claim_system: true
+
+    #MAX TICKETS PER USER
+    max: 1
+
+
+
+#========================================================
+#                                                       =
+#                  ANTI RAID SYSTEM                     =
+#                                                       =
+#========================================================
+
+antiraid:
+    #MAX OF JOINS
+    max_joins: 5
+
+    #IN THAT TIME (SECONDS)
+    period_time: 5
+
+
+
+#========================================================
+#                                                       =
+#                       MINECRAFT                       =
+#                                                       =
+#========================================================
+
+minecraft:
+  #MINECRAFT STORE LINK
+  store: "https://google.com"
+
+  #MINECRAFT SERVER IP
+  ip: "hypixel.net"
+
+  #IF YOU USE A DOMAIN LEAVE PORT EMPTY
+  port: ""
+
+#========================================================
+#                                                       =
+#                          MEMES                        =
+#                                                       =
+#========================================================
+
+memes:
+    #REDDIT REPOSITORYS WHERE BOT WILL GET THE NORMAL MEMES
+    meme: https://www.reddit.com/r/memes/
+
+    #REDDIT REPOSITORYS WHERE BOT WILL GET THE MINECRAFT MEMES
+    minecraft: https://www.reddit.com/r/MinecraftMemes/
+
+    #MEME COMMAND COOLDOWN IN MINUTES
+    cooldown: 1
+
+    #IF TRUE YOU CAN ONLY USE THE COMMAND IN MEMES CHANNEL
+    only_memes_channel: false

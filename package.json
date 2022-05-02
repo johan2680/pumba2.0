@@ -1,0 +1,32 @@
+{
+  "name": "Extreme_BOT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "on": "node"
+  },
+  "author": "Wolfnight29 + Tbbo",
+  "license": "ISC",
+  "dependencies": {
+    "bad-words": "^3.0.4",
+    "canvas": "^2.8.0",
+    "cron": "^1.8.2",
+    "discord-antiraid": "^2.2.0",
+    "discord-temp-channels": "^3.0.1",
+    "discord-welcome-card": "^4.0.3",
+    "discord.js": "^13.1.0",
+    "discord.js-captcha": "^2.3.0",
+    "ejs": "^3.1.6",
+    "fs": "^0.0.1-security",
+    "glob": "^7.1.7",
+    "got": "^11.6.0",
+    "js-yaml": "^4.1.0",
+    "moment": "^2.29.1",
+    "ms": "^2.1.3",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.4",
+    "pretty-error": "^4.0.0"
+  }
+}

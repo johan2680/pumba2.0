@@ -1,0 +1,1489 @@
+################################################################
+#                           EXAMPLE                            #
+#        #BeastLeaks.to                                                      #
+#footer:                                                       #
+#    timestamp: true  #TRUE/FALSE                              #
+#    icon: "default"  #DEFAULT(BOT AVATAR)/NONE/IMAGE URL      #
+#    text: "default"   #DEFAULT(BOT NAME)/TEXT                 #
+################################################################
+
+
+#BeastLeaks.to
+
+# B ea s tleaks.to
+
+#========================================================
+#                                                       =
+#                        ADVICE                         =
+#                                                       =
+#========================================================
+
+advice: 
+  title: "Learn with the best!"
+  footer:
+    timestamp: true
+    icon: "default"
+    text: "default"
+  
+  
+#========================================================
+#                                                       =
+#                    NO PERMISSION                      =
+#                                                       =
+#========================================================
+
+noperm:
+    error_title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "You don't have permission to do this."
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+
+
+#========================================================
+#                                                       =
+#                     PERMISSIONS                       =
+#                                                       =
+#========================================================
+
+permissions:
+
+  message1:
+    title: ":pencil: | Permissions numbers"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+
+
+
+#========================================================
+#                                                       =
+#                     ANNOUNCEMENT                      =
+#                                                       =
+#========================================================
+
+announcement: 
+  title: ":loudspeaker: Announcement"
+  footer:
+    timestamp: true
+    icon: "default"
+    text: "default"
+  
+  
+#========================================================
+#                                                       =
+#                       ANTISPAM                        =
+#                                                       =
+#========================================================  
+
+anti_spam:
+  message1:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "You cant share other discord servers here."
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+  message2:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "You can't send links here."
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+      
+  message3:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "Don't Spam Upper Case Messages!"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+  
+  
+  
+#========================================================
+#                                                       =
+#                        AVATAR                         =
+#                                                       =
+#========================================================  
+
+avatar: 
+  title: ":frame_photo: | Avatar from {user}"
+  footer:
+    timestamp: true
+    icon: "default"
+    text: "default"
+  
+  
+#========================================================
+#                                                       =
+#                          BAN                          =
+#                                                       =
+#========================================================
+
+ban:
+    
+  no_reason: "No mentioned."    
+    
+  message1:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "You can't ban this user!"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+      
+  message2:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "The user is not in the guild!"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+      
+  message3:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "You didn't mention the user to ban!"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+       
+  message4:
+    title: "no_entry_sign: Punishment - BAN"
+    message : "{user} was banned from the server!"
+    fields: 
+      author: ":bust_in_silhouette: Author:"
+      reason: ":page_facing_up: Reason: "
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+      
+  message5: 
+    title: "no_entry_sign: Punishment - BAN"
+    message : "You get Banned from {server}"
+    fields: 
+      author: ":bust_in_silhouette: Author:"
+      reason: ":page_facing_up: Reason: "
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+  
+  
+  
+#========================================================
+#                                                       =
+#                      BLOCK WORDS                      =
+#                                                       =
+#========================================================
+
+block_words:
+  message1:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "You have used a blocked word in chat!"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+  
+  
+  
+#========================================================
+#                                                       =
+#                       COMMANDS                        =
+#                                                       =
+#========================================================  
+
+commands: 
+  message1:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "You can only use the command in the **commands channel.**"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+  
+    
+  
+#========================================================
+#                                                       =
+#                         FLIP                          =
+#                                                       =
+#========================================================  
+
+flip: 
+  message: "The result is: "
+  title: ":coin: I launched the coin and..."
+  tail: " **Tails**"
+  head: "**Heads**"
+  image_url: "https://www.iconpacks.net/icons/1/free-coin-icon-794-thumb.png"
+  footer:
+    timestamp: true
+    icon: "default"
+    text: "default"
+  
+
+
+#========================================================
+#                                                       =
+#                         GIF                           =
+#                                                       =
+#========================================================  
+
+gif:
+  author: "GIF requested by: {author}"
+  footer:
+    timestamp: true
+    icon: "default"
+    text: "default"
+
+#========================================================
+#                                                       =
+#                       GIVEAWAY                        =
+#                                                       =
+#======================================================== 
+
+giveaway:
+  message1:
+    title: "New Giveaway!"
+    message: "**Reward: **{reward}\n**Min participants:** {minimum}\n**End at: **{end}\n**Hosted by:** {host}"
+    image: "https://insidejamarifox.com/wp-content/uploads/2020/10/1f389.png"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "React to this message with 🎉 to participate !"
+      
+      
+  message2:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "To use the giveaway command use: \n**!giveaway @host time min_participants reward**\nExample !giveaway @host 7d Nitro."
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+      
+  message4: "🎉 @everyone Not enough participants to execute the draw of the giveaway **{giveaway}** 🎉"
+  message5: "🎉 {user} won the giveaway {giveaway}, hosted by {host}, congratulations! 🎉"
+  message6: "🎉 {user} won the giveaway! Congratulations! 🎉"
+  
+  message7:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "This message id don't contain any valid giveaway!"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+    
+  
+#========================================================
+#                                                       =
+#                         HELP                          =
+#                                                       =
+#========================================================  
+
+help:
+  dm:
+    title: ":robot: | Bot commands help"
+    message: "All commands sent in direct message."
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+    
+  menu:
+    title: ":robot: | Bot commands help"
+    message: ":loudspeaker: Prefix: **{prefix}**\n\nWich command you need help?"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+    button1:
+      name: "Member"
+      emoji: 👤
+    button2: 
+      name: "Fun"
+      emoji: 🤡 
+    button3:
+      name: "Utility"
+      emoji: 🔨
+    button4:
+      name: "Moderation"
+      emoji: 🛡️  
+      
+      
+  help1: 
+    title: "👤 | Member Commands"
+    message: ":loudspeaker: Prefix: **{prefix}**\n\n{topinvites}\n{invites}\n{avatar}\n{nick}\n"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+      
+  help2: 
+    title: "🤡 | Fun Commands"
+    message: ":loudspeaker: Prefix: **{prefix}**\n\n{gif}\n{meme}\n{mcmeme}\n{mcstatus}\n{joke}\n{advice}\n{flip}\n{rps}\n{serverinfo}"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+      
+  help3: 
+    title: "🔨 | Utility Commands"
+    message: ":loudspeaker: Prefix: **{prefix}**\n\n{help}\n{giveaway}\n{reroll}\n{suggestion}\n{report}\n{ticket}\n{verify}\n{poll}\n{announcement}\n{setstatus}\n{setpresence}\n{embed}\n{say}"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+      
+  help4: 
+    title: "🛡️ | Moderation Commands"
+    message: ":loudspeaker: Prefix: **{prefix}**\n\n{add}\n{remove}\n{mute}\n{unmute}\n{tempmute}\n{ban}\n{unban}\n{tempban}\n{kick}\n{warn}\n{slow}\n{role}\n{purge}\n{lock}\n{unlock}"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+    
+  commands:
+    perms: "**perms** - show the permissions for every role."
+    transcript: "**transcript <number of messages** - transcript channel messages and send in dm."
+    store: "**store** - send a server store link."
+    ip: "**ip** - send the server ip."
+    serverinfo: "**serverinfo** - send all informations about the discord server."
+    role: "**role <@member> <@role>** - give a role for the member."
+    gif: "**gif <something>** - send a gif with the theme you writed."
+    reroll: "**reroll <message id> <minimum of participants>** - reroll again the giveaway."
+    suggestion: "**suggestion <suggestion>** - send a suggestion in the suggestions channel."
+    remove: "**remove <@member>** - remove member permissions from the channel."
+    add: "**add <@member>** - add member permissions for the channel."
+    topinvites: "**topinvites** - send top 3 persons with more invites."
+    invites: "**invites <@member>** - show how many invites member have."
+    setstatus: "**setstatus <type><text>** - set a bot custom status."
+    setpresence: "**setpresence <type>** - set a bot custom bot presence."
+    mcstatus: "**mcstatus <ip>** - show you the status of minecraft server."
+    advice: "**advice** - send a random advice."
+    warn: "**warn <@member> <reason>** - warn a member."
+    joke: "**joke** - semd a random joke."
+    announcement: "**announcement <@role> <message>** send a announcement pinging the selected role."
+    nick: "**nick <nick>** - change your nick."
+    flip: "**flip** - flip the coin."
+    ban: "**ban <@member> <reason>** - ban a member."
+    mcmeme: "**mcmeme** - send a random minecraft meme."
+    meme: "**meme** - send a random meme."
+    mute: "**mute <@member>** - mute a member."
+    unmute: "**unmute <@member>** - unmute a member."
+    purge: "**purge <number of messages>** - delete messages in bulk."
+    slow: "**slow <time in seconds>** - enable slow mode in the channel."
+    tempban: "**tempban <@member> <time>** - ban temporarily a member from the server."
+    tempmute: "**tempban <@member> <time>** - mute temporarily a member from the server."
+    ticket: "**ticket** - send the message where people can open tickets."
+    unban: "**unban <@member>** - unban the member from the server."
+    lock: "**lock** - lock the channel (only staff can send messages)."
+    unlock: "**unlock** - unlock the channel (everyone can send messages)."
+    verify: "**verify** - send the messages where members can click to verify."
+    rps: "**rps <rock/paper/scissors>** - play the game against the bot."
+    avatar: "**avatar <@member>** - send the avatar from the member."
+    giveaway: "**giveaway <@host> <time> <min_participants> <reward>** - create a new giveaway."
+    help: "**help** - send all commands help in dm."
+    poll: "**poll <option1>;<option2> : <question>** - create a poll in the channel."
+    kick: "**kick <@member> <reason>** - kick a member from server."
+    report: "**report <@member> <reason>** - report a member to staff."
+    embed: "**embed <title> [⏎]^[⏎]<message>[⏎]^[⏎]<timestamp true/false>[⏎]^[⏎]<footer icon>[⏎]^[⏎]<footer text>[⏎]^[⏎]<image link>[⏎]^[⏎]<thumbnail link>** - send a full customized embed."
+    say: "**say <message>** - send a simple embed information." 
+ 
+#========================================================
+#                                                       =
+#                        INVITES                        =
+#                                                       =
+#========================================================
+
+invites:
+  message1:
+    title: ":chart_with_upwards_trend: Invites Counter:"
+    field_title: "{user} have:"
+    field_info: "```{invites} invites```"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default" 
+  
+  
+#========================================================
+#                                                       =
+#                         JOIN                          =
+#                                                       =
+#========================================================  
+
+join:
+  message1:
+    title: ":green_book: Welcome {user}!"
+    image: "https://i.ibb.co/Km19gF7/welcome.png"
+    message: "Thank you for joining, i hope you be a normal animal, and **don't break the rules**. If you need any help **open a ticket**! Stay Safe!"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+  
+  random:
+    - "Welcome **{user}**!"
+    - "**{user}** just landed!"
+    
+    
+    
+#========================================================
+#                                                       =
+#                         JOKE                          =
+#                                                       =
+#========================================================  
+
+joke: 
+  title: ":laughing: | What a joke..."
+  footer:
+    timestamp: true
+    icon: "default"
+    text: "default"
+  
+  
+#========================================================
+#                                                       =
+#                         KICK                          =
+#                                                       =
+#========================================================  
+
+kick:
+  message1:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "You can't kick this user!"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+      
+  message2:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "The user is not in the guild!"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+  message3:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "You didn't mention the user to kick!"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+      
+  message4:
+    title: ":no_entry_sign: Punishment - KICK"
+    message: "**{user}** was kicked from the server!"
+    author: ":bust_in_silhouette: Author: "
+    reason: ":page_facing_up: Reason: "
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+      
+  message5:
+    title: "**{user}** | kicked :no_entry_sign:"
+    message: "You get kicked from **{server}**"
+    author: ":bust_in_silhouette: Author: "
+    reason: ":page_facing_up: Reason: "
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+  
+  no_reason: "No mentioned."
+  
+  
+  
+#========================================================
+#                                                       =
+#                        LEAVE                          =
+#                                                       =
+#========================================================  
+
+leave:
+  message1:
+    title: ":closed_book: Good Bye {user}!"
+    image: "https://i.ibb.co/Z6DHMJB/good-bye.png"
+    message: "Thank you for leaving, we dont need you here, and **you made a good decision**. You can come back if **you want**!"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+  
+  random:
+    - "Goodbye **{user}**!"
+    - "**{user}** just leave!"
+    
+    
+    
+#========================================================
+#                                                       =
+#                         LOCK                          =
+#                                                       =
+#======================================================== 
+
+lock:
+  message1:
+    title: ":lock: Channel Locked"
+    message: "Now **only staff** can send messages on this channel."
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+  
+  
+  
+#========================================================
+#                                                       =
+#                          LOGS                         =
+#                                                       =
+#======================================================== 
+
+logs:
+  message1:
+    title: ":page_with_curl: BOT LOG"
+    message: "{user} {action} **{cmd}**."
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+      
+  actions:    
+    command: "used the command"
+    invite: "sent an discord invite"
+    links: "sent a link in chat"
+    spam: "tryed spam messages in chat"
+    verify: "verified account"
+    uppercase: "spammed uppercase characters"
+    words: "used blocked words in chat"
+    delete: "got the message deleted with the content:"
+
+  
+  
+  
+#========================================================
+#                                                       =
+#                       MCSTATUS                        =
+#                                                       =
+#========================================================  
+
+mcstatus: 
+  message1:
+    title: ":arrow_up: | Minecraft Server Status"
+    message: "Error getting this server status."
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+      
+  message2:
+    title: ":arrow_up: | Minecraft Server Status"
+    message: "**Description:** {description}"
+    max: ":100: Max Players"
+    online: ":bust_in_silhouette: Players Online"
+    version: ":regional_indicator_v: Version"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+  
+  
+#========================================================
+#                                                       =
+#                         MEME                          =
+#                                                       =
+#========================================================
+
+meme:
+  author: "Meme requested by: {author}"
+  message1:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "You need wait **{cooldown}** to use that command again."
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+    
+  message2:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "You can only use the command in the **meme's channel.**"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+  
+  
+#========================================================
+#                                                       =
+#                         MUTE                          =
+#                                                       =
+#========================================================
+
+mute:
+  message1:
+    title: ":no_entry_sign: Punishment - MUTE"
+    message: "**{user}** was muted in the server!"
+    author: ":bust_in_silhouette: Author:"
+    reason: ":page_facing_up: Reason:"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+  message2:
+    title: "{user} | Muted :no_entry_sign:"
+    message: "You get Muted in {guild}"
+    reason: ":page_facing_up: Reason:"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"   
+
+  message3:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "You can't mute this user."
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"  
+
+  message4:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "**Correct usage:** !mute @user"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"  
+
+  no_reason: "No mentioned."
+  
+  
+  
+  
+#========================================================
+#                                                       =
+#                         NICK                          =
+#                                                       =
+#======================================================== 
+
+nick: 
+  title: ":bust_in_silhouette: Nick Changed"
+  message: "You changed your nick to: **{nick}**"
+  footer:
+    timestamp: true
+    icon: "default"
+    text: "default"
+
+#========================================================
+#                                                       =
+#                         POLL                          =
+#                                                       =
+#========================================================
+
+poll: 
+  message1:
+    title: ":question: Poll"
+    message: "{question}\n\n{options}"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+  message2:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "Correct usage: **!poll option1;option2;option3 : <question>.**"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+ 
+  
+
+
+#========================================================
+#                                                       =
+#                         PURGE                         =
+#                                                       =
+#========================================================
+
+purge:
+
+  message1:
+    title: ":warning: Chat messages purged!"
+    message: "By: {user}"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default" 
+
+  message2:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "Please choose a number between **1** **99**."
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+  
+ 
+ 
+#========================================================
+#                                                       =
+#                         REPORT                        =
+#                                                       =
+#======================================================== 
+
+report:
+
+  message1:
+    title: ":no_entry_sign: User Reported"
+    message: "**{user}** get reported!"
+    reason: ":page_facing_up: Reason: "
+    author: ":bust_in_silhouette: Author: "
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+  message2:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "Correct usage **!report @user <reason>**"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+  no_reason: "No mentioned."
+  
+  
+#========================================================
+#                                                       =
+#                          RPS                          =
+#                                                       =
+#======================================================== 
+
+rps:
+  message1:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "Your Choice was not one of the options:  **rock, paper** or **scissors**"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+      
+  message2:
+    title: ":rock::scissors::newspaper: | Rock, Paper, Scissors?"
+    player: "Your Choice"
+    bot: "Bot Choice"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+      
+  choices:
+    paper: paper
+    scissors: scissors
+    rock: rock
+  
+  results:  
+    draw: 
+      title: "We Draw"
+      image: "https://images.emojiterra.com/google/android-pie/512px/1f91d.png"
+    lost: 
+      title: "You Lost"
+      image: "https://emoji.gg/assets/emoji/Loser.png"
+    won: 
+      title: "You Won"
+      image: "https://imagensemoldes.com.br/wp-content/uploads/2020/05/Ilustra%C3%A7%C3%A3o-Trof%C3%A9u-PNG.png"
+  
+ 
+ 
+#========================================================
+#                                                       =
+#                         SLOW                          =
+#                                                       =
+#========================================================
+
+slow: 
+
+  message1:
+    title: ":speaking_head: Slowmode"
+    message: "This chat is now with slow mode of **{slowdown}** seconds"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+  
+  message2:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "You need to state a number between **5** and **21600**. \nOr **0** to disable slowmode."
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+#========================================================
+#                                                       =
+#                      SETSTATUS                        =
+#                                                       =
+#========================================================
+
+status:
+
+  message1:
+    title: ":loudspeaker: Status Changed"
+    message: "Bot status changed to: **{status}**"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+  message2:
+    title: ":loudspeaker: Status Not Changed"
+    message: "To change bot status, you need set custom mode in status config."
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+ 
+  message3:
+    title: ":loudspeaker: Status Not Changed"
+    message: "The type of activity should be: **WATCHING, PLAYING, COMPETING** or** LISTENING**"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+
+
+#========================================================
+#                                                       =
+#                     SETPRESENCE                       =
+#                                                       =
+#========================================================
+
+presence:
+
+  message1:
+    title: ":loudspeaker: Presence Changed"
+    message: "Bot presence changed to: **{status}**"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+  message2:
+    title: ":loudspeaker: Presence Not Changed"
+    message: "The type of activity should be: **idle, dnd, online** or** invisible**"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+ 
+
+
+#========================================================
+#                  # b E a S t L e a k s . to < 3                                     =
+#                     SUGGESTION                        =
+#                                                       =
+#======================================================== 
+
+suggestion:
+  message1:
+    title: ":bulb: Suggestion | by {user}"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+    reactions:
+      yes: "✅"
+      no: "❌"
+  
+#========================================================
+#                                                       =
+#                        TEMPBAN                        =
+#                                                       =
+#========================================================
+
+tempban:
+
+  message1:
+    title: ":no_entry_sign: Punishment - TEMPBAN"
+    message: "**{user}** was temp banned in the server!"
+    author: ":bust_in_silhouette: Author:" 
+    time: ":clock: Time: "
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+  message2:
+    title: "{user} | Temp Banned :no_entry_sign:"
+    message: "You get Temp Banned from {discord}"
+    author: ":bust_in_silhouette: Author:" 
+    time: ":clock: Time: "
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+  message3:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "Correct usage: **tempban <@member> <time>**"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+  message4:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "You can't tempban this user!"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default" 
+  
+  
+#========================================================
+#                                                       =
+#                       TEMPMUTE                        =
+#                                                       =
+#========================================================
+
+tempmute:
+
+  message1:
+    title: ":no_entry_sign: Punishment - TEMPMUTE"
+    message: "**{user}** was temp muted in the server!"
+    author: ":bust_in_silhouette: Author:" 
+    time: ":clock: Time: "
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+  message2:
+    title: "{user} | Temp Muted :no_entry_sign:"
+    message: "You get Temp Muted from {discord}"
+    author: ":bust_in_silhouette: Author:" 
+    time: ":clock: Time: "
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+  message3:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "Correct usage: **tempmute <@member> <time>**"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+  message4:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "You can't tempmute this user!"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default" 
+      
+  error_message: "You didn't mention the user to tempmute!"
+  error_message2: "You didn't specified the time!"
+  error_message3: "You can't tempmute this user!"
+  error_title: ":octagonal_sign:  Attencion :octagonal_sign:"
+  minutes: minute(s).
+  muted_author: ":bust_in_silhouette: Author: "
+  muted_message: "was temp muted in the server!"
+  muted_message_dm: "You get Temp Muted in "
+  muted_time: ":clock: Time: "
+  muted_title: ":no_entry_sign: Punishment - TEMPMUTE"
+  muted_title_dm: " | Temp Muted :no_entry_sign:"
+  no_reason: "No mentioned."
+  
+  
+  
+#========================================================
+#                                                       =
+#                        TICKETS                        =
+#                                                       =
+#========================================================  
+
+ticket:
+
+  general:
+    
+    noclaim: "You can not claim tickets!"
+    close_error: "The ticket can only be closed by staff!"
+    limit_error: "You reach the maximum of opened tickets!"
+    muted_error: "You are muted and you cant open tickets!"
+    ticket_claimed: "{user} claimed the ticket!"
+    ticket_created: "Ticket Created!"
+
+    message1:
+      title: ":envelope_with_arrow: Open a support ticket!"
+      message: "If you need any help with any product or any question Open a ticket some member from staff will help you soon! Thank You!"
+      image: "https://i.ibb.co/3d7BpK6/111.png"
+      footer:
+        timestamp: true
+        icon: "default"
+        text: "default"
+
+    button:
+      close: 
+        name: "Close"
+        emoji: "🔒"
+        color: "DANGER"
+
+      claim: 
+        name: "Claim"
+        emoji: "🏷"
+        color: "PRIMARY"
+
+  department1:
+    button:
+      name: General
+      emoji: 📩
+      color: PRIMARY
+    message:
+      title: "📩 | Ticket created in General Department"
+      message: "Thank you for open a ticket! Soon, some member from staff will help you dear {user}."
+      image: "https://i.ibb.co/3d7BpK6/111.png"
+      footer:
+        timestamp: true
+        icon: "default"
+        text: "default"
+
+  department2:
+    button:
+      name: Technical
+      emoji: ⚙️
+      color: DANGER
+    message:
+      title: "⚙️ | Ticket created in Technical Department"
+      message: "Thank you for open a ticket! Soon, some member from staff will help you dear {user}."
+      image: "https://i.ibb.co/3d7BpK6/111.png"
+      footer:
+        timestamp: true
+        icon: "default"
+        text: "default"
+
+  department3:
+    button:
+      name: Billing
+      emoji: 💵
+      color: SUCCESS
+    message:
+      title: "💵 | Ticket created in Billing Department"
+      message: "Thank you for open a ticket! Soon, some member from staff will help you dear {user}."
+      image: "https://i.ibb.co/3d7BpK6/111.png"
+      footer:
+        timestamp: true
+        icon: "default"
+        text: "default"
+
+  department4:
+    button:
+      name: Punishments
+      emoji: ⛔
+      color: SECONDARY
+    message:
+      title: "⛔ | Ticket created in Punishments Department"
+      message: "Thank you for open a ticket! Soon, some member from staff will help you dear {user}."
+      image: "https://i.ibb.co/3d7BpK6/111.png"
+      footer:
+        timestamp: true
+        icon: "default"
+        text: "default"
+
+  department5:
+    button:
+      name: Denouncement
+      emoji: 📢
+      color: PRIMARY
+    message:
+      title: "📢 | Ticket created in Denouncement Department"
+      message: "Thank you for open a ticket! Soon, some member from staff will help you {user}."
+      image: "https://i.ibb.co/3d7BpK6/111.png" 
+      footer:
+        timestamp: true
+        icon: "default"
+        text: "default"
+
+
+#========================================================
+#                                                       =
+#                     TOP INVITES                       =
+#                                                       =
+#========================================================
+
+topinvites:
+  message1:
+    title: ":ballot_box: | Invites Leaderboard"
+    places:
+     first: "🥇| "
+     second: "🥈| "
+     third: "🥉| "
+    footer:
+        timestamp: true
+        icon: "default"
+        text: "default"
+  
+  
+  
+#========================================================
+#                                                       =
+#                          UNBAN                        =
+#                                                       =
+#========================================================
+
+unban:
+
+  message1:
+    title: ":sound: User Unbanned"
+    message: "Now that member can join in the server!"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+  message2:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "You didn't specified the user to unban!"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+  message3:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "This user is not banned!"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default" 
+  
+  
+  
+#========================================================
+#                                                       =
+#                        UNLCOCK                        =
+#                                                       =
+#======================================================== 
+  
+unlock:
+  
+  message1:
+    title: ":unlock: Channel Unlocked"
+    message: "Now all members can send messages on this channel."
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+  
+
+
+#========================================================
+#                                                       =
+#                        UNMUTE                         =
+#                                                       =
+#========================================================
+
+unmute:
+
+  message1:
+    title: ":sound: User Unmuted"
+    message: "Now **{user}** can talk in channels!"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+  message2:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "You didn't mention the user to unmute!"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+
+
+#========================================================
+#                                                       =
+#                        VERIFY                         =
+#                                                       =
+#========================================================
+
+verify:
+
+  message1:
+    title: ":hand_splayed: Welcome to {discord}"
+    message: "To verify your account you just need click in the below button. Please don't break any rules. Any question about someting please open a ticket. Stay Safe!"
+    image: "https://i.ibb.co/RQCt3f9/verify.png"
+    button:
+      text: "Click to verify your account"
+      icon: "✅"
+      color: "SUCCESS"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+  verified: "{user} your account is verified!"
+
+
+
+#========================================================
+#                                                       =
+#                        WARNING                        =
+#                                                       =
+#========================================================
+
+warn:
+  message1:
+    title: ":warning: Punishment - WARNING"
+    message: "{user} Get Warned!"
+    author: ":bust_in_silhouette: Author: "
+    reason: ":page_facing_up: Reason: "
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+  no_reason: "No mentioned."
+
+
+
+
+#========================================================
+#                                                       =
+#                         ROLE                          =
+#                                                       =
+#========================================================
+
+role:
+  message1:
+    title: ":bust_in_silhouette: Role command to {user}"
+    message: "{role} role was given to {user}"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+  message2:
+    title: ":bust_in_silhouette: Role command to {user}"
+    message: "{role} role removed from {user}"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+  message3:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "Correct usage: **!role <member> <role>**"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+ 
+ 
+ 
+#========================================================
+#                                                       =
+#                      TRANSCRIPT                       =
+#                                                       =
+#========================================================  
+
+transcript:
+  message1:
+    title: ":ticket: Ticket transcript: {user}"
+    message: "This is a copy of the messages in a closed ticket.\nDownload the file below for more details"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+    
+  message2:
+    title: ":envelope: Chat transcript"  
+    message: This is a copy of the messages from channel you wrote the command.
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+  message3:
+    title: "Transcript Error"
+    message: "Please specify the number of messages to transcript.\nShould be between 1 and 99."
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+
+#========================================================
+#                                                       =
+#                      ADD/REMOVE                       =
+#                                                       =
+#========================================================
+
+add_remove:
+  message1:
+    title: ":bust_in_silhouette: User added to the channel."
+    message: '{user} was added to this channel.'
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+  message2: 
+    title: ":bust_in_silhouette: User removed from the channel."
+    message: '{user} was removed from this channel'
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+
+#========================================================
+#                                                       =
+#                        CAPTCHA                        =
+#                                                       =
+#========================================================
+
+captcha:
+
+  message1:
+    title: "Welcome to {discord}!"
+    message: "**I'm Not a Robot**\n{user}, to gain access to **{discord}**, please solve the CAPTCHA below!\n\nThis is done to protect the server from raids consisting of spam bots."
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "You have one attempt to solve the CAPTCHA."
+
+  message2:
+    title: "✅ CAPTCHA Solved!"
+    message: "{user}, you completed the CAPTCHA successfully, and you have been given access to **{discord}**!"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+
+  message3:
+    title: "❌ You Failed to Complete the CAPTCHA!"
+    message: "{user}, you failed to solve the CAPTCHA!\n\nCAPTCHA Text: **{captcha}**"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+ 
+  
+#========================================================
+#                                                       =
+#                         STORE                         =
+#                                                       =
+#========================================================
+
+store:
+  title: ":shopping_cart: | Our Store"
+  message: "Click the button below to go to our store!"
+  button: "Store"
+  footer:
+    timestamp: true
+    icon: "default"
+    text: "default"
+    
+
+
+#========================================================
+#                                                       =
+#                       SERVER INFO                     =
+#                                                       =
+#========================================================
+
+serverinfo:
+  title: ":interrobang: | About this server"
+  name: "**Name**"
+  id: "**ID**"
+  owner: "**Owner**"
+  members: "**Member(s)**"
+  bots: "**Bot(s)**"
+  textchannels: "**Text Channel(s)**"
+  voicechannels: "**Voice Channel(s)**"
+  creation: "**Created at**"
+  joined: "**You joined at**"
+  footer:
+    timestamp: true
+    icon: "default"
+    text: "default"
+    
+    
+    
+#========================================================
+#                                                       =
+#                           IP                          =
+#                                                       =
+#========================================================
+
+ip:
+  title: ":pick: | Our Server IP"
+  message: "Copy the below ip to play with us\n**{ip}**"
+  footer:
+    timestamp: true
+    icon: "default"
+    text: "default"
+    
+#========================================================
+#                                                       =
+#                       CHANNELS                        =
+#                                                       =
+#========================================================
+
+channels:
+  minecraft_status: "Server Status: {status}"
+  minecraft_players: "Online Players: {players}"
+  members_count: "Discord Members: {discord}"
+  
+#========================================================
+#                                                       =
+#                         EMBED                         =
+#                                                       =
+#========================================================
+
+embed:
+  message1:
+    title: ":octagonal_sign:  Attencion :octagonal_sign:"
+    message: "To use the embed command use: \n**!embed <title>\n^\n<message>\n^\n<timestamp true/false>\n^\n<footer icon>\n^\n<footer text>\n^\n<image link>\n^\n<thumbnail link>**"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
+      
+#========================================================
+#                                                       =
+#                          SAY                          =
+#                                                       =
+#========================================================
+
+say:
+  message1:
+    title: ":bell: Information!"
+    footer:
+      timestamp: true
+      icon: "default"
+      text: "default"
